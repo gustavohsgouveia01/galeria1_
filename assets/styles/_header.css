@@ -1,21 +1,21 @@
 .main-header {
   width: 100%;
-  min-height: 70px;
+  min-height: 4.37rem;
   background-color: #ffffff;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .main-header .logo {
-  width: 50px;
-  height: 50px;
+  width: 3.12rem;
+  height: 3.12rem;
   border-radius: 50%;
   background-color: #e4e4e4;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-  border: 2px solid;
+  border: .12rem solid;
 }
 .main-header .logo:hover {
   background-color: #a800a8;
@@ -45,26 +45,26 @@
 
 .search-imput {
   width: 33, 3%;
-  padding-left: 150px;
+  padding-left: 9.37rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .search-imput input {
-  width: 450px;
+  width: 28.12rem;
   height: 40px;
-  border-radius: 20px 0 0 20px;
-  padding: 0 0 0 10px;
-  border: 2px solid;
+  border-radius: 1.25rem 0 0 1.25rem;
+  padding: 0 0 0 .62rem;
+  border: .12rem solid;
   border-right: none;
 }
 .search-imput .icon {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid;
+  border: .12rem solid;
   border-left: none;
   border-radius: 0 20px 20px 0;
   background-color: #e4e4e4;
@@ -76,10 +76,10 @@
 .main-nav {
   width: 33, 3%;
   display: flex;
-  gap: 25px;
+  gap: 1.56rem;
 }
 .main-nav a {
-  border-bottom: 3px solid transparent;
+  border-bottom: .18rem solid transparent;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
@@ -87,7 +87,7 @@
   transition: 0.5s;
 }
 .main-nav a:hover {
-  border-bottom: 3px solid #a800a8;
+  border-bottom: .18rem solid #a800a8;
 }
 
 @media (max-width: 1300px) {
@@ -95,7 +95,7 @@
     padding-left: 0;
   }
   .search-imput input {
-    width: 250px;
+    width: 15.62rem;
   }
 }
 @media (max-width: 830px) {

@@ -1,6 +1,6 @@
 .redes {
   width: 100%;
-  min-height: 140px;
+  min-height: 8.75rem;
   background-color: #ffffff;
   display: flex;
   align-items: center;
@@ -10,12 +10,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 0.31rem;
   font-size: 1.2rem;
   color: #000;
   transition: .5s;
-  padding: 5px;
-  border-bottom: 2px solid transparent;
+  padding: 0.31rem;
+  border-bottom: .125rem solid transparent;
 }
 .redes a:hover {
   color: #a800a8;
