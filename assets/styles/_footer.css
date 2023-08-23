@@ -1,0 +1,24 @@
+.redes {
+  width: 100%;
+  min-height: 140px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redes a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 1.2rem;
+  color: #000;
+  transition: .5s;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+}
+.redes a:hover {
+  color: #a800a8;
+  /* text-decoration: underline; */
+  border-color: #a800a8;
+}
