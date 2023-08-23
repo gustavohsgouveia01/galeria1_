@@ -1,0 +1,110 @@
+.main-header {
+  width: 100%;
+  min-height: 4.37rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-header .logo {
+  width: 3.12rem;
+  height: 3.12rem;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border: .12rem solid;
+}
+.main-header .logo:hover {
+  background-color: #a800a8;
+}
+.logo {
+  width: 33, 3%;
+}
+.logo a {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo span {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 2.3rem;
+  transition: 0.5s;
+}
+.logo span:hover {
+  color: #fff;
+}
+
+.search-imput {
+  width: 33, 3%;
+  padding-left: 9.37rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-imput input {
+  width: 28.12rem;
+  height: 40px;
+  border-radius: 1.25rem 0 0 1.25rem;
+  padding: 0 0 0 .62rem;
+  border: .12rem solid;
+  border-right: none;
+}
+.search-imput .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: .12rem solid;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #e4e4e4;
+}
+.icon span:hover {
+  cursor: pointer;
+}
+
+.main-nav {
+  width: 33, 3%;
+  display: flex;
+  gap: 1.56rem;
+}
+.main-nav a {
+  border-bottom: .18rem solid transparent;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  transition: 0.5s;
+}
+.main-nav a:hover {
+  border-bottom: .18rem solid #a800a8;
+}
+
+@media (max-width: 1300px) {
+  .search-imput {
+    padding-left: 0;
+  }
+  .search-imput input {
+    width: 15.62rem;
+  }
+}
+@media (max-width: 830px) {
+  .search-imput {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .main-header .logo {
+    display: none;
+  }
+}
